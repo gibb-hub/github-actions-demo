@@ -1,7 +1,13 @@
-def add(x, y):
-    """This is an add function"""
+def hello():
+        print('Hello user!')
 
-    return x + y
+        print('What is your name?') # ask for their name
+        myName = input()
+        print('It is good to meet you, ' + myName)
+        print('The length of your name is:')
+        print(len(myName))
 
-
-print(add(1, 1))
+        print('What is your age?') # ask for their age
+        myAge = input()
+        print('You will be ' + str(int(myAge) + 1) + ' in a year.')
+hello()
