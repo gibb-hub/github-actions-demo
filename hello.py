@@ -1,5 +1,5 @@
 def hello():
-        print('Hey Big Spender!')
+        print('Hello User!')
 
         print('What is your name?') # ask for their name
         myName = input()
